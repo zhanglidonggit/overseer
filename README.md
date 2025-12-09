@@ -18,7 +18,7 @@ Commonly, graceful restarts are performed by the active process (*dark blue*) cl
 ### Install
 
 ```sh
-go get github.com/zhanglidonggit/overseer
+go get github.com/jpillora/overseer
 ```
 
 ### Quick example
@@ -34,8 +34,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/zhanglidonggit/overseer"
-	"github.com/zhanglidonggit/overseer/fetcher"
+	"github.com/jpillora/overseer"
+	"github.com/jpillora/overseer/fetcher"
 )
 
 //create another main() to run the overseer process
